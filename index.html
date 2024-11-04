@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Advogado Fulano is a a lawyer who provides legal services">
+    <meta name="keywords" content="serviçes, who am i, ">
+    <meta name="robots" content="index, follow"></meta>
+    <title>Advogado Fulano</title>
+    <meta name="author" content="Paula Stéfany">
+    <link rel="icon" href="img/undraw_text_files_au1q.svg">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Hind:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+
+        <!-- HEADER LOGO -->
+        <div class="header-logo">
+            <a href="#banner">
+                <img aria-hidden="true" data-src="img/undraw_text_files_au1q.svg" alt="logo" class="logo-img lazy-load" >
+                <span>Fulano</span>
+            </a>
+        </div>
+
+        <!-- HEADER NAV -->
+        <nav class="header-nav" id="header-nav" aria-label="menu de navegação">
+            <ul class="nav-items" role="menu">
+                <li role="menuitem"><a href="#banner" class="nav-item">Home</a></li>
+                <li role="menuitem"><a href="#services" class="nav-item">Serviçes</a></li>
+                <li role="menuitem"><a href="#who-am-i" class="nav-item">Who am I?</a></li>
+                <li role="menuitem"><a href="#depoiments" class="nav-item">Depoiments</a></li>
+                <li role="menuitem"><a href="#frequent-questions" class="nav-item">Frequent Questions</a></li>
+                <li role="menuitem"><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- HEADER MENU MOBILE -->
+        <button class="bars" id="bars" aria-expanded="false" aria-label="Abrir menu" aria-haspopup="true" aria-controls="menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+    </header>
+
+    <main>
+
+        <!-- BANNER SECTION -->
+        <section class="banner" data-bg="img/pexels-picjumbo-com-55570-210660.webp" id="banner" aria-label="Banner com imagem de livro e caneta">
+
+            <!-- BANNER-TEXT -->
+            <article class="banner-text">
+                <h2 class="banner-subtitle">Lorem ipsum dolor</h2>
+                <h1 class="banner-title">Lorem ipsum</h1>
+                <p class="banner-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nesciunt corrupti excepturi ipsam neque fugit maxime praesentium accusantium.</p>
+                <a class="contact-button" href="#">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    Request a quote
+                </a>
+            </article>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section class="services" id="services">
+
+            <!-- SERVICES TITLE -->
+            <h2 class="services-title">Our Serviçes</h2>
+            <p class="services-title-description">Check out the services we have to solve your needs</p>
+
+            <!-- SERVICES CARDS -->
+            <div class="service-cards" id="service-cards">
+                <article class="service-card">
+                    <div class="service-logo">
+                        <i class="fa-regular fa-pen-to-square"></i>
+                    </div>
+                    <h2 class="service-title">Lorem Ipsum</h2>
+                    <p class="service-description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, veniam eligendi. Consequatur!
+                    </p>
+                </article>
+                <article class="service-card">
+                    <div class="service-logo">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                    <h2 class="service-title">Lorem Ipsum</h2>
+                    <p class="service-description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, veniam eligendi. Consequatur!
+                    </p>
+                </article>
+                <article class="service-card">
+                    <div class="service-logo">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <h2 class="service-title">Lorem Ipsum</h2>
+                    <p class="service-description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, veniam eligendi. Consequatur!
+                    </p>
+                </article>
+                <article class="service-card">
+                    <div class="service-logo">
+                        <i class="fa-solid fa-paperclip"></i>
+                    </div>
+                    <h2 class="service-title">Lorem Ipsum</h2>
+                    <p class="service-description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, veniam eligendi. Consequatur!
+                    </p>
+                </article>
+            </div>
+
+            <!-- SERVICES ARROWS -->
+            <figure class="arrow">
+                <button id="left" class="btn-arrow"><i class="fa-solid fa-chevron-left bx" aria-label="Navegar para o serviçe anterior"></i></button>
+                <button id="right" class="btn-arrow"><i class="fa-solid fa-chevron-right bx" aria-label="Navegar para o serviçe posterior"></i></button>
+            </figure>
+        </section>
+
+        <!-- WHO AM I SECTION -->
+        <section class="who-am-i" id="who-am-i">
+            <h2 class="who-am-i-title">Who Am I?</h2>
+            <div class="who-am-i-content">
+
+                <!-- WHO AM I - IMAGE -->
+                <aside class="who-am-i-image">
+                    <img aria-hidden="true" class="who-am-i-img lazy-load" data-src="img/pexels-elina-araja-1743227-3317936.webp" alt="Advogado Fulano Image"  width="20px">
+                </aside>
+
+                <!-- WHO AM I - TEXT -->
+                <article class="who-am-i-text">
+                    <div class="who-am-i-container-subtitle">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                        <h2 class="who-am-i-subtitle">Advogado Fulano</h2>
+                    </div>
+
+                    <div class="who-am-i-container-sub-subtitle">
+                        <div class="check-container">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <h3 class="who-am-i-sub-subtitle">Extensive experience in <strong>solving problems</strong> quickly</h3>
+                    </div>
+
+                    <p class="who-am-i-description">
+                        Inventore nemo nulla corrupti saepe cumque voluptatum eius fuga omnis quam quo Lorem ipsum dolor sit amet 
+                    </p>
+
+                    <div class="who-am-i-container-sub-subtitle">
+                        <div class="check-container">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <h3 class="who-am-i-sub-subtitle">Resolve your <strong>complex problems</strong> very fast</h3>
+                    </div>
+                    <p class="who-am-i-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quasi aperiam nostrum beatae incidunt optio earum.
+                    </p>
+                    <div class="who-am-i-container-sub-subtitle">
+                        <div class="check-container">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <h3 class="who-am-i-sub-subtitle">Lorem <strong>complex problems</strong> faster than ever</h3>
+                    </div>
+                    <p class="who-am-i-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quasi aperiam nostrum beatae incidunt optio earum.
+                    </p>
+
+                    <!-- WHO AM I - DETAILS -->
+                    <div class="who-am-i-details">
+                        <div class="fulano-details">
+                            <h2 class="details-title">+ 5K</h2>
+                            <p class="details-description">Serciçes</p>
+                        </div>
+                        <div class="fulano-details">
+                            <h2 class="details-title">+ 200</h2>
+                            <p class="details-description">Clients</p>
+                        </div>
+                        <div class="fulano-details">
+                            <h2 class="details-title">+ 7Y</h2>
+                            <p class="details-description">Serving</p>
+                        </div>
+                    </div>
+
+                    <!-- CONTACT BUTTON -->
+                    <div class="who-am-i-contact">
+                        <a class="contact-button" href="#" aria-label="contact button">
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            Talk to me
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- DEPOIMENTS SECTION -->
+        <section class="depoiments" id="depoiments">
+            
+            <!-- DEPOIMENTS TITLE -->
+            <h2 class="depoiments-title">Depoiments</h2>
+            <p class="depoiments-descriptions">What my clients says about my work</p>
+
+            <!-- DEPOIMENTS CARDS -->
+            <div class="depoiments-cards" id="depoiments-cards">
+
+                <article class="depoiment-card">
+                    <div class="profile-content">
+                        <figure class="depoiment-image">
+                            <img aria-hidden="true" data-src="img/pexels-enginakyurt-1435517.webp" alt="Profile Image" class="depoiment-img lazy-load">
+                        </figure>
+                        <h2 class="depoiment-title-profile">Toby</h2>
+                    </div>
+                    <p class="depoiment-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sit, libero porro temporibus nulla totam numquam eius veniam alias velit exercitationem nihil!
+                    </p>
+                    <span class="depoiment-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star last-star"></i>
+                    </span>
+                </article>
+                <article class="depoiment-card">
+                    <div class="profile-content">
+                        <figure class="depoiment-image">
+                            <img aria-hidden="true" data-src="img/pexels-enginakyurt-1435517.webp" alt="Profile Image" class="depoiment-img lazy-load">
+                        </figure>
+                        <h2 class="depoiment-title-profile">Toby</h2>
+                    </div>
+                    <p class="depoiment-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sit, libero porro temporibus nulla totam numquam eius veniam alias velit exercitationem nihil!
+                    </p>
+                    <span class="depoiment-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star last-star"></i>
+                    </span>
+                </article>
+                <article class="depoiment-card">
+                    <div class="profile-content">
+                        <figure class="depoiment-image">
+                            <img aria-hidden="true" data-src="img/pexels-enginakyurt-1435517.webp" alt="Profile Image" class="depoiment-img lazy-load">
+                        </figure>
+                        <h2 class="depoiment-title-profile">Toby</h2>
+                    </div>
+                    <p class="depoiment-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sit, libero porro temporibus nulla totam numquam eius veniam alias velit exercitationem nihil!
+                    </p>
+                    <span class="depoiment-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star last-star"></i>
+                    </span>
+                </article>
+                <article class="depoiment-card">
+                    <div class="profile-content">
+                        <figure class="depoiment-image">
+                            <img aria-hidden="true" data-src="img/pexels-enginakyurt-1435517.webp" alt="Profile Image" class="depoiment-img lazy-load">
+                        </figure>
+                        <h2 class="depoiment-title-profile">Toby</h2>
+                    </div>
+                    <p class="depoiment-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sit, libero porro temporibus nulla totam numquam eius veniam alias velit exercitationem nihil!
+                    </p>
+                    <span class="depoiment-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star last-star"></i>
+                    </span>
+                </article>
+            </div>
+        </section>
+
+        <!-- FREQUENT QUESTIONS -->
+        <section class="frequent-questions" id="frequent-questions">
+
+            <!-- QUESTIONS TITLE -->
+            <h2 class="questions-title">Frequent Questions</h2>
+            <p class="questions-title-description">Lorem ipsum dolor sit amet consectetur adipisicing elit, Laudantium</p>
+            
+            <!-- SUMARY QUESTIONS -->
+            <div class="questions-content">
+                <details class="question">
+                    <summary class="question-description">
+                        Lorem, ipsum dolor sit amet consectetur rewil?
+                        <i class="fa-solid fa-caret-left"></i>
+                    </summary>
+                    <p class="question-response-description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam omnis facilis quia laborum hic quas, ducimus necessitatibus quo atque asperiores, voluptates, ipsa dicta ipsum!
+                    </p>
+                </details>
+                <details class="question">
+                    <summary class="question-description">
+                        Lorem, ipsum dolor sit amet consectetur rewil?
+                        <i class="fa-solid fa-caret-left"></i>
+                    </summary>
+                    <p class="question-response-description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam omnis facilis quia laborum hic quas, ducimus necessitatibus quo atque asperiores, voluptates, ipsa dicta ipsum!
+                    </p>
+                </details>
+                <details class="question">
+                    <summary class="question-description">
+                        Lorem, ipsum dolor sit amet consectetur rewil?
+                        <i class="fa-solid fa-caret-left"></i>
+                    </summary>
+                    <p class="question-response-description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam omnis facilis quia laborum hic quas, ducimus necessitatibus quo atque asperiores, voluptates, ipsa dicta ipsum!
+                    </p>
+                </details>
+                <details class="question">
+                    <summary class="question-description">
+                        Lorem, ipsum dolor sit amet consectetur rewil?
+                        <i class="fa-solid fa-caret-left"></i>
+                    </summary>
+                    <p class="question-response-description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam omnis facilis quia laborum hic quas, ducimus necessitatibus quo atque asperiores, voluptates, ipsa dicta ipsum!
+                    </p>
+                </details>
+                <details class="question">
+                    <summary class="question-description">
+                        Lorem, ipsum dolor sit amet consectetur rewil?
+                        <i class="fa-solid fa-caret-left"></i>
+                    </summary>
+                    <p class="question-response-description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam omnis facilis quia laborum hic quas, ducimus necessitatibus quo atque asperiores, voluptates, ipsa dicta ipsum!
+                    </p>
+                </details>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact" id="contact">
+
+            <!-- CONTACT TITLE -->
+            <h2 class="contact-title">Request a Quote</h2>
+
+            <!-- CONTACT CONTENT -->
+            <div class="contact-content">
+                
+                <form action="" class="contact-form">
+                    <input class="input" type="text" placeholder="Name">
+                    <input class="input" type="email" placeholder="E-mail">
+                    <textarea class="text-area" name="" id="text-area" placeholder="Enter the subject
+                    "></textarea>
+                    <button type="submit" aria-label="Envio de formulário" class="send-button">
+                        <i class="fa-regular fa-paper-plane"></i>
+                        Send
+                    </button>
+                </form>
+                <!-- CONTACT IMAGE -->
+                <aside class="contact-image">
+                    <img aria-hidden="true" data-src="img/undraw_sentiment_analysis_jp6w (1).svg" alt="Smartphone Image" class="contact-img lazy-load">
+                </aside>
+            </div>
+
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+
+            <!-- FOOTER CONTENT -->
+            <section class="footer-content">
+                <div class="footer-items">
+                    <article class="footer-item">
+                        <h3 class="footer-subtitle">Features
+                        </h3>
+                        <ul>
+                            <li class="footer-description">Lorem blá bláblá</li>
+                            <li class="footer-description">Lorem blá bláblá</li>
+                            <li class="footer-description">Lorem blá bláblá</li>
+                        </ul>
+                    </article>
+                    <article class="footer-item">
+                        <h3 class="footer-subtitle">Serviçes</h3>
+                        <ul>
+                            <li class="footer-description">Lorem blá bláblá</li>
+                            <li class="footer-description">Lorem blá bláblá</li>
+                            <li class="footer-description">Lorem blá bláblá</li>
+                        </ul>
+                    </article>
+                    <article class="footer-item">
+                        <h3 class="footer-subtitle">Planos</h3>
+                        <ul>
+                            <li class="footer-description">Lorem blá bláblá</li>
+                            <li class="footer-description">Lorem blá bláblá</li>
+                            <li class="footer-description">Lorem blá bláblá</li>
+                        </ul>
+                    </article>
+                </div>            
+            </section>
+            <div class="author-content">
+                <p class="author-description">Created by Paula Stéfany <i class="fa-regular fa-face-smile"></i></p>
+            </div>
+        </footer>
+    </main>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
